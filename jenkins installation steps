@@ -1,0 +1,9 @@
+ yum install -y
+   29  yum install wget
+   30  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   31  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   32  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   33  yum install jenkins
+   34  systemctl start jenkins
+   35  systemctl enable jenkins
+   Hit the web browse

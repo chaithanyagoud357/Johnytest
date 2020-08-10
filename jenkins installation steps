@@ -7,3 +7,4 @@
    34  systemctl start jenkins
    35  systemctl enable jenkins
    Hit the web browse
+   
